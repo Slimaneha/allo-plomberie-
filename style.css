@@ -4,15 +4,185 @@
 
 /* *********************Start header config CSS*********************************/
 
-header aside section {
+header aside,  header section,header nav a, header figure img  {
 	display:inline-block;
 }
 
-figure {
-	background-color: red;
-	height: 500px;
-	height: 500px;
+header section {
+	vertical-align: middle;
+	vertical-align: top;
+	margin: 3em 0  0 30%;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+
+
+
+}
+
+header 
+{
+	
+	height: 200px;
+	
+} 
+
+
+
+
+ header figure {
+	height: 200px;
+	height: 300px;
+}
+
+header figure img 
+{
+	height: 200px;
+	width: 200px;
+	margin: 0;
+
 }
 
 
-/******************* End of config de header  ***************************** / g
+
+
+
+
+
+
+
+
+/******************* End of config de header  ***************************** / 
+
+/* *****************************   Start config css nav ****************************/
+
+nav a {
+	vertical-align: top;
+	text-decoration: none;
+	color: black;
+	border-left:solid 3px;
+	border-right: solid 3px;
+	margin: 0 0  0 10% ;
+	font-family: 'Rokkitt', serif;
+	padding-left:1em;
+	padding-right: 1em;
+	}
+	 nav {
+		
+		border-top: solid 3px;
+	}
+
+
+	/************************************* Ende config css Nav **************************************
+
+
+
+
+/********************************* Start Confi coeur de pages *****************************************/
+
+section figure img 
+{
+					width: 250px;
+					height:200px;
+					vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/******************************** Sart Confi CSS FOOTER ******************************************/
+
+footer {
+	border-top: solid 4px;
+}
+
+
+
+footer figure img 
+{
+	vertical-align: bottom;
+	height: 150px;
+	width:200px;
+}
+
+footer figure img, footer ul, footer ul li, footer ul li a 
+{
+	display: inline-block;
+}
+
+footer ul li a 
+{
+       vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/************************* End of config CSS FOOTER *************************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
