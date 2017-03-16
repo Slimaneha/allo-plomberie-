@@ -77,7 +77,7 @@ nav a {
 
 
 
-/********************************* Start Confi coeur de pages *****************************************/
+/********************************* Start Confi coeur de pages "index.html" *****************************************/
 
 section figure img 
 {
@@ -89,6 +89,25 @@ section figure img
 
 
 
+
+/********************************** start css of Urgences.HTML ********************* */
+
+.photo1 img
+{
+	width:80%;
+	height: 750px;
+	margin: 2em 0 5em 6em;
+	margin-left: 3em
+	vertical-align:middle;
+}
+
+
+.urg h2 {
+	text-align: center;
+	font-family: 'Rokkitt', serif;
+	margin: 3em;
+	color:red;
+}
 
 
 
