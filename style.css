@@ -1,0 +1,18 @@
+*{
+	margin: 0;
+}
+
+/* *********************Start header config CSS*********************************/
+
+header aside section {
+	display:inline-block;
+}
+
+figure {
+	background-color: red;
+	height: 500px;
+	height: 500px;
+}
+
+
+/******************* End of config de header  ***************************** / g
