@@ -9,39 +9,48 @@
 </head>
 <body>
 
-
 <header> <!-- ************* Start Header *********************** -->
 <aside>  <!-- start Aside -->
 	<figure>
-		<img class="logo" src="photo/logo1.png" alt="Logo de la socité de plomberie">
+		<img class="logo" src="photo/depannage-plomberie-lille.png" alt="Logo de la socité de plomberie">
 	</figure>
 </aside> <!-- ende of Aside -->
 
 <section>
-	<h1>SOS Plombier</h1>
-	<h2> Urgences,Dépanage,Gros oeuvre 24h24 7j7</h2>
+	<h1>SOS Plombier !</h1>
+	<h2> Urgences,Dépanage,Gros oeuvre 24h24 7j7.<br>
+	<img src="photo/su.png"  alt="Numéro service d'Intervention"></h2>
 </section>
 
 </header> <!-- ******************* end-of Header ************************** -->
 
 
 <nav>
-	<a href="Index.html">Accueille</a>
-	<a href="rdv.html">Demande de Rendez-vous</a>
-	<a href="tarfi.html">Tarif</a>
-	<a href="Devis.html">Devis</a>
+	<a href="index.html">Accueille</a>
+	<a href="tarif.html">Tarifs</a>
+	<a href="devis.html">Devis</a>
 	<a href="urgences.html"> <strong> En Cas D'Urgences Gaz  ! </strong></a>
 </nav>
  
 
-<section>
-<h3> </h3>
+
+<div id="Attention">
+<article> 
+<h2> Attention vous allez  prendre un Rendez-vous ! </h2>
+
+<p> Vous allez demandez un rendez-vous, ce qui vous engagent à le respecter,  , Ci vous avait si vous avez un empêchement <br> Merci de nous prévenir au 
+<strong> Maximum 48h avant via notre hotline aux 07.86.85.59.18 </strong> 2€99 Par appellent <br> dans le cas ou le professionnel se déplace et que vous n'êtes pas présent le déplacement sera quand même facturé.</p>
+</article>
+</div>
+
+
+<h3> .</h3>
 <fieldset>
 				<legend> Demande de Devis </legend>
 	<form action="post">
 
 	<label id="Non">Votre Non ?</label>
-	<input type="text" name="Non" required placeholder="Non"> <br>
+	<input type="text" name="Non" required="" placeholder="Non"> <br>
 
 	<label id="Adresses">Adresses</label>
 	<input type="text" name="Adresses" required placeholder="Votre Adresses" > <br>
@@ -67,14 +76,17 @@
        Quelle Travau voulais vous efféctuer ? :<br />
        <input type="checkbox" name="Gaz" id="Gaz" /> <label for="Gaz">Installation gaz </label><br />
        <input type="checkbox" name="chaudiere" id="chaudiere" /> <label for="chaudiere">chaudiere</label><br />
-       <input type="checkbox" name="fuit" id="fuit" /> <label for="fuit ">Vous avais une Fuite ?</label><br />
+       <input type="checkbox" name="fuit" id="fuit" /> <label for="fuit ">une Fuite ?</label><br />
        <input type="checkbox" name="Autre " id="Autre " /> <label for="Autre ">Autre </label>
    </p>
   	 					<label id="date"> Vos Disponibilité</label>
    						<input type="date" /> <br>
 
+<br>
+   						<label id="condition" >J'ai pris conscience que la prise de rendez-vous applique un engagement de présences.</label>
+   						<input type="checkbox" name="condition" required> <br>
+
    						<input type="submit" name="Envoyer">
-</form>
 	
 
 	
@@ -82,12 +94,6 @@
 
 	</form> </fieldset>
 </section>
-
-<article> 
-<h2> Attention la prise de Rendez-vous ! </h2>
-
-<p> Vous allez demandé un Rendez-vous ce qui vous engages à le respecter ci vous avait si vous avez un empechement Merci de  nous prévenir au <strong>Maximum 48h avant </strong> via notre hotline aux <strong>07.86.85.59.18 </strong> 2€99 Par appeles dans le cas ou le professionnel ce déplaces et que vous êtes pas présent le déplacement sera quand même facturé  </p>
-</article>
 
 
 

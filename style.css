@@ -11,7 +11,7 @@ header aside,  header section,header nav a, header figure img  {
 header section {
 	vertical-align: middle;
 	vertical-align: top;
-	margin: 3em 0  0 30%;
+	margin: 1em 0  0 30%;
 	text-align: center;
 	font-family: 'Indie Flower', cursive;
 
@@ -21,7 +21,8 @@ header section {
 
 header 
 {
-	
+	/*background-color:#848484;*/
+	border-radius:10px;
 	height: 200px;
 	
 } 
@@ -39,16 +40,27 @@ header figure img
 	height: 200px;
 	width: 200px;
 	margin: 0;
+	border-radius: 100px;
 
 }
 
 
 
 
+header h2 img 
+{
+	height: 40px;
+	width: 300px;
+	margin-top: 1em;
+	margin-left: 10em;
+}
 
 
+header h2,
+{
+	margin-top: 1em;
 
-
+}
 
 
 /******************* End of config de header  ***************************** / 
@@ -59,16 +71,19 @@ nav a {
 	vertical-align: top;
 	text-decoration: none;
 	color: black;
-	border-left:solid 3px;
-	border-right: solid 3px;
+	border-left:solid 3px #FF4000;
+	border-right: solid 3px #FF4000;
 	margin: 0 0  0 10% ;
 	font-family: 'Rokkitt', serif;
-	padding-left:1em;
-	padding-right: 1em;
+	padding-left:3em;
+	padding-right: 3em;
+	border-radius:20px;
 	}
 	 nav {
-		
-		border-top: solid 3px;
+		margin-left: 5em;
+		border-top: solid 3px #FF4000;
+		border-radius: 30px ;
+		padding-left: 2em;
 	}
 
 
@@ -81,56 +96,49 @@ nav a {
 
 section figure img 
 {
-					width: 250px;
+					width: 200px;
 					height:200px;
-					vertical-align: middle;
+					
+
 }
 
-
-
-
-.nume h4, .nume
+section figure  , #nav2 ul 
 {
-
+	vertical-align: middle;
 }
+
+
+
+
+
 
 
 footer {
 	background-color: #939394;
-	border-top: solid 4px;
+	
 	margin-top: 40%;
 }
 
 
 
 footer figure img
-{
+{   margin-left: 15em; 
+	border-radius: 30px;
 	vertical-align: middle;
-	height: 40px;
-	width:350px;
+	height: 100px;
+	width:80px;
 	background-color: #939394;
 	
 }
 
 footer figure img, footer ul, footer ul li, footer ul li a 
 {
+	display: inline-block;
 	vertical-align: middle;
 	text-decoration: none;
+	padding-left: 1em;
 	
 }
-
-footer ul li a 
-{
-
- 	text-decoration: none;
-	color: black
-   	vertical-align: top;
-   	color: black;
-	margin-left: 6em;
-}
-
-
-
 
 
 
@@ -214,6 +222,8 @@ table, table tr, table td
 
 table 
 {
+	border:2px solid;
+	border-radius: 10px;
 	vertical-align: middle;
 	height: 600px;
 	width: :900px;
@@ -222,9 +232,10 @@ table
 
 th 
 {
+	border-collapse:collapse;
 	color: red;
 	text-align:center;
-	font-family: 'Ranga', cursive;
+	font-family: 'Sansita', sans-serif;
 	margin-left: 2em;
 	size:3em;
 }
@@ -239,20 +250,18 @@ section h2
 }
 
 
-, p {
-	display: flex;
-}
+
 
 /********************************** Config CSS Devis **************************/
 
 
-form 
+<fieldset> 
 {
-	height: 300px;
-	width:300px;
+	height: 700px;
+	width:500px;
 }
 
-label input, label ,  
+label input, label  
 
 {
 	text-align: center;
@@ -260,10 +269,17 @@ label input, label ,
 	margin-left: 6em;
 }
 
- h2 p, 
-{
-	text-align: center;
-}
+ #Attention 
+ {
+ 	border:solid 2px red ;
+ 	margin-top: 2em;
+ 	border:solid 2px red ;
+ 	border-radius: 30px;
+ 	text-align: center;
+ 	color: red;
+ 	margin-bottom: 2em;
+ 	margin-top: 2em;
+ }
 
 
 
