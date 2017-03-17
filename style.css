@@ -89,8 +89,62 @@ section figure img
 
 
 
+.nume h4, .nume
+{
 
-/********************************** start css of Urgences.HTML ********************* */
+}
+
+
+footer {
+	background-color: #939394;
+	border-top: solid 4px;
+	margin-top: 40%;
+}
+
+
+
+footer figure img
+{
+	vertical-align: middle;
+	height: 40px;
+	width:350px;
+	background-color: #939394;
+	
+}
+
+footer figure img, footer ul, footer ul li, footer ul li a 
+{
+	vertical-align: middle;
+	text-decoration: none;
+	
+}
+
+footer ul li a 
+{
+
+ 	text-decoration: none;
+	color: black
+   	vertical-align: top;
+   	color: black;
+	margin-left: 6em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/************************* End of config CSS FOOTER *************************** */
+	/********************************** start css of Urgences.HTML ********************* */
 
 .photo1 img
 {
@@ -132,64 +186,84 @@ section figure img
 
 
 
+/* End of config Urgences.html */
+
+/******************************************** Start of tarif ***************************/
 
 
+	
+}
+
+section table  
+{
+	margin:3em 0 0 4em;
+	vertical-align:middle;
+	
+	margin-left: 10em;
+
+}
+
+table, table tr, table td  
+{
+
+	vertical-align: middle;
+	border:solid 2px;
+	
+}
 
 
+table 
+{
+	vertical-align: middle;
+	height: 600px;
+	width: :900px;
+	margin:3em 0 0 10em;
+}
 
-
-
-
-	/******************************** Sart Confi CSS FOOTER ******************************************/
-
-footer {
-	border-top: solid 4px;
+th 
+{
+	color: red;
+	text-align:center;
+	font-family: 'Ranga', cursive;
+	margin-left: 2em;
+	size:3em;
 }
 
 
 
-footer figure img 
+section h2 
 {
-	vertical-align: bottom;
-	height: 150px;
-	width:200px;
+	text-align: center;
+	margin-top: 2em;
+	font-family: 'Ranga', cursive;
 }
 
-footer figure img, footer ul, footer ul li, footer ul li a 
+
+, p {
+	display: flex;
+}
+
+/********************************** Config CSS Devis **************************/
+
+
+form 
 {
+	height: 300px;
+	width:300px;
+}
+
+label input, label ,  
+
+{
+	text-align: center;
 	display: inline-block;
+	margin-left: 6em;
 }
 
-footer ul li a 
+ h2 p, 
 {
-       vertical-align: top;
+	text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	/************************* End of config CSS FOOTER *************************** */
-
-
-
-
-
-
-
-
-
-
 
 
 
